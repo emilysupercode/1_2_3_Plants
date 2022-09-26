@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    Scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: FrederickatheGreat-Regular;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans-Medium;
+    src: url("../fonts/OpenSans-Medium.ttf");
+}
+
+header {
+    background-image: url("../img/3_2\ background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header h2 {
+    color: white;
+    font-family: FrederickatheGreat-Regular, cursive;
+}
+
+.header__123 {
+    display: inline-block;
+    margin: 5px auto 0 100px;
+}
+
+header section article {
+    font-family: OpenSans-Medium, sans-serif;
+}
+
+article.article__center__hl {
+    text-align: center;
+    width: 240px;
+    margin: 200px auto;
+}
+
+article.article__center__hl h2 {
+    width: 220px;
+    margin: 0 auto;
+}
+
+p.article__center__text {
+    margin: 15px auto 10px auto;
+}
+
+p.article__center__text,
+p.article__center__link {
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+p.article__center__link a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 25px;
+    width: 125px;
+    text-decoration: none;
+    color: white;
+}
+
+p.article__center__link a:link {
+    color: white;
+}
+
+p.article__center__link a:visited {
+    color: white;
+}
+
+p.article__center__link a:hover {
+    background-color: white;
+    color: black;
+}
+
+header section article.article__lr__list {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 100px 0 auto;
+    padding: 0 0 50px 0;
+}
+
+header section article.article__lr__list ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header section article.article__lr__list li {
+    padding: 3px 0;
+}
+
+header section article.article__lr__list a {
+    text-decoration: none;
+    color: white;
+}
+
+header section article.article__lr__list a:link {
+    color: white;
+}
+
+header section article.article__lr__list a:visited {
+    color: white;
+}
+
+header section article.article__lr__list a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px auto 50px auto;
+}
+
+main section {
+    text-align: center;
+    /* margin: 20px auto 50px auto; */
+}
+
+.article__h2__hl1 {
+    font-family: FrederickatheGreat-Regular, cursive;
+}
+
+main section article.main__section__article1 p {
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    display: inline-block;
+    width: 470px;
+    margin: 30px auto;
+}
+
+main section article p {
+    font-family: OpenSans-Medium, sans-serif;
+    font-size: 12px;
+}
+
+main section article.main__section__article2 {
+    border: 4px double black;
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px 30px;
+    display: inline-block;
+}
+
+main section article p.section__article2__contact {
+    margin: 10px auto;
+}
+
+main section article p.section__article2__number {
+    margin: 0 auto 10px auto;
+}
+
+main section article p.section__article2__number a {
+    text-decoration: none;
+    color: black;
+}
+
+main section article p.section__article2__number a:link {
+    color: black;
+}
+
+main section article p.section__article2__number a:visited {
+    color: black;
+}
+
+main section article p.section__article2__number a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    font-family: OpenSans-Medium, sans-serif;
+    font-size: 12px;
+    background-color: gray;
+    color: white;
+}
+
+footer section article p.section__article__suggestion {
+    display: inline-block;
+    width: 525px;
+    margin: 20px auto 0 10px;
+}
+
+footer section article a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: auto;
+}
+
+footer section article p.section__article__button a {
+    margin: 10px auto 10px 10px;
+    border: 2px solid white;
+    padding: 10px 30px;
+}
+
+footer section article nav ul li a:link {
+    color: white;
+}
+
+footer section article nav ul li a:visited {
+    color: white;
+}
+
+footer section article nav ul li a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+footer section article p.section__article__button a:link {
+    color: white;
+}
+
+footer section article p.section__article__button a:visited {
+    color: white;
+}
+
+footer section article p.section__article__button a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer section article ul {
+    list-style-type: none;
+    margin: 0 5px 5px auto;
+    text-align: right;
+}
+
+footer section article ul li {
+    display: inline-block;
+    margin: 0 10px 10px auto;
+}
